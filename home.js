@@ -9,8 +9,7 @@ const Home = () => {
         <h1>Portfolio</h1>
         <h2>
           Bienvenue <br /> dans mon portfolio. <br />
-          <br />
-          Merci !
+          <br /> Merci !
         </h2>
         <ul>
           <li>Name : Nicolas </li>
