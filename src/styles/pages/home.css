@@ -1,0 +1,150 @@
+.home-div {
+    background: #242424;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 80px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px black solid;
+    animation: slide-in-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+  }
+  .home-div .home-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 60px 0 60px 60px;
+    font-family: "Fjalla One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    background: #171717;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 50px 50px 50px 50px;
+    width: 60%;
+  }
+  .home-div .home-info h1 {
+    font-size: 90px;
+    text-align: center;
+  }
+  .home-div .home-info h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+  .home-div .home-info p {
+    font-size: 15px;
+    text-align: center;
+  }
+  .home-div .home-info .home-info-perso {
+    text-align: left;
+  }
+  .home-div .home-ael {
+    width: 30%;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .home-div .home-ael .home-img .home-pp {
+    border-radius: 20px 20px 20px 20px;
+    border: 2px rgb(0, 0, 0) solid;
+    height: 460px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .home-div .home-ael .home-img p {
+    color: white;
+    text-align: center;
+  }
+  .home-div .home-ael .home-link a {
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px 20px 20px 20px;
+    background: #4bb04e;
+    font-family: "Fjalla One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .home-div .home-ael .home-link a:hover {
+    box-shadow: 0 0 11px rgb(75, 176, 78);
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media (max-width: 650px) {
+    .home-div {
+      background: #242424;
+      margin: 120px 0 80px 0;
+      border-radius: 0 0 0 0;
+      padding: 0;
+      border: 2px black solid;
+      animation: none;
+      flex-direction: column;
+      align-items: center;
+    }
+    .home-div .home-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0 0 0;
+      width: 100%;
+      background: #171717;
+      border: none;
+      border-radius: 0 0 0 0;
+    }
+    .home-div .home-info h1 {
+      width: 100%;
+      font-size: 50px;
+      margin: 20px 0 0 0;
+    }
+    .home-div .home-info h2 {
+      font-size: 18px;
+      margin: 20px 0 0 0;
+    }
+    .home-div .home-info p {
+      width: 100%;
+      font-size: 15px;
+      text-align: center;
+    }
+    .home-div .home-info ul {
+      width: 80%;
+      list-style: none;
+      text-align: left;
+      padding: 0;
+      margin: 20px 0;
+    }
+    .home-div .home-ael {
+      width: 100%;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0 20px 0;
+    }
+    .home-div .home-ael .home-img {
+      display: none;
+    }
+    .home-div .home-ael .home-link a {
+      padding: 5px 10px 5px 10px;
+      font-size: 15px;
+      text-wrap: nowrap;
+    }
+  }
+  
+  /*# sourceMappingURL=Home.css.map */
